@@ -1,0 +1,44 @@
+{
+  "data": {
+    "cateogories": [
+      {
+        "id": "c1",
+        "name": "Chats",
+        "forums": ["f1"]
+      }
+    ],
+    "forums": [
+      {
+        "id": "f1",
+        "name": "fishing",
+        "description": "Let's talk fishing",
+        "categoryId": "c1",
+        "threads": ["t1"]
+      }
+    ],
+    "users": [
+      {
+        "id": "u1",
+        "name": "Andy"
+      }
+    ],
+    "threads": [
+      {
+        "id": "t1",
+        "title": "What is your favourite food?",
+        "publishedAt": "1232434",
+        "posts": [],
+        "userId": "u1"
+      }
+    ],
+    "posts": [
+      {
+        "id": "p1",
+        "publishedAt": "1232434",
+        "userId": "u1",
+        "text": "I like pizza",
+        "threadId": "t1"
+      }
+    ]
+  }
+}
